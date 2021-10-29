@@ -140,9 +140,33 @@ nav a {
     align-items: center;
     justify-content: center;
 }
-/* styling flex boxes */
+/* my styling starts here [div box & text-containers] */
+.text-container {
+    margin-top: 2%;
+}
+.parent {
+    display: flex;
+    justify-content: space-between;
+    height: 40vh;
+    flex-wrap: wrap;
+    text-align: center;
+    margin-top: 2%;
+}
+.parent div {
+    width: 17%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.box6, .box7, .box8, .box9, .box10 {
+    margin-top: 5%;
+}
 
-.box2 {
+
+.box1  {
+    background-color: teal;
+}
+.box2  {
     background-color: gold;
 }
 .box3 {
@@ -222,10 +246,10 @@ footer nav a {
     display: flex;
 }
 .strategy, .working {
-    margin-top: 6%;
+    margin-top: 2%;
 }
 .places, .collab {
-    margin-top: 8%;
+    margin-top: 7%;
 }
 .places p {
     display: flex;
@@ -238,11 +262,28 @@ button {
     color: black;
     border: 2.3px solid black;
     border-radius: 15%;
-    height: 10%;
-    width: 30%;
+    height: 8%;
+    width: 25%;
 }
-
 hr {
     border: 1px dashed black;
     width: 95%;
+    margin-top: 5%;
+    align-items: center;
+    align-content: center;
+}
+.about-hr {
+    margin-top: 3%;
+    margin-right: 20%;
+}
+.about {
+    margin-top: 2%;
+    text-align: left;
+}
+.bottom-section {
+    margin-top: 6%;
+}
+
+.about-html {
+    margin-top: 4%;
 }
