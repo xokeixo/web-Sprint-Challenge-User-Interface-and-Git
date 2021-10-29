@@ -89,6 +89,10 @@ nav a {
     margin-right: 5%;
     margin-top: 2%;
 }
+.header-img {
+    width: 100%;
+    margin-top: 2%;
+}
 
 
 .container {
@@ -136,7 +140,37 @@ nav a {
     align-items: center;
     justify-content: center;
 }
+/* styling flex boxes */
 
+.box2 {
+    background-color: gold;
+}
+.box3 {
+    background-color: cadetblue;
+}
+.box4 {
+    background-color: coral;
+}
+.box5 {
+    background-color: crimson;
+}
+.box6 {
+    background-color: forestgreen;
+}
+.box7 {
+    background-color: darkorchid;
+}
+.box8 {
+    background-color: hotpink;
+}
+.box9 {
+    background-color: indigo;
+}
+.box10 {
+    background-color: dodgerblue;
+}
+ 
+/* bottom content styling */
 .bottom-content {
     display: flex;
     margin: 0 2% 20px;
@@ -167,5 +201,48 @@ footer nav {
 
 footer nav a {
     color: white;
+    background-color: black;
     text-decoration: none;
+}
+
+/* about page styling */
+.top {
+    display: flex;
+    justify-content: center;
+    align-content: space-around;
+    flex-wrap: wrap;
+}
+.strategy, .working, .places, .collab {
+    width: 50%;
+}
+.strategy p {
+    display: flex;
+}
+.working p {
+    display: flex;
+}
+.strategy, .working {
+    margin-top: 6%;
+}
+.places, .collab {
+    margin-top: 8%;
+}
+.places p {
+    display: flex;
+}
+.collab p {
+    display: flex;
+}
+button {
+    background-color: white;
+    color: black;
+    border: 2.3px solid black;
+    border-radius: 15%;
+    height: 10%;
+    width: 30%;
+}
+
+hr {
+    border: 1px dashed black;
+    width: 95%;
 }
